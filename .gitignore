@@ -1,3 +1,12 @@
+# The .gitignore file is a plain text file that tells the Git version control system which files and 
+# directories to ignore in a project. This prevents unnecessary, temporary, or sensitive files from being 
+# tracked, staged, or committed to the repository, keeping it clean and organized.
+
+# used for-->
+# The .gitignore file is used to specify intentionally untracked files and directories that Git should 
+#ignore. It helps keep your repository clean by preventing the accidental staging or committing of 
+# unnecessary, temporary, or sensitive file
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

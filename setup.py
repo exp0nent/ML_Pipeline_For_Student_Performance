@@ -1,5 +1,5 @@
-"""setup.py is a Python script that plays a central role in packaging and distributing Python projects, particularly when using the setuptools 
-library. It acts as the configuration file and interface for various packaging tasks."""
+"""setup.py is a Python script that plays a central role in packaging and distributing Python projects, particularly when 
+using the setuptools library. It acts as the configuration file and interface for various packaging tasks."""
 
 from setuptools import find_packages,setup
 from typing import List
