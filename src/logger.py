@@ -16,3 +16,8 @@ logging.basicConfig(
 
 if __name__=="__main__":
     logging.info("Logging has started")
+
+"""A logger in Python is a core component of the built-in logging module, which provides a flexible framework for tracking events 
+that happen when software runs. It allows developers to record diagnostic information, errors, and general status messages systematically,
+which is crucial for debugging, monitoring application performance, and analyzing issues in production environments. 
+(https://blog.sentry.io/logging-in-python-a-developers-guide/)"""

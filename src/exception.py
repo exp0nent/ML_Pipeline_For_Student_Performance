@@ -1,5 +1,6 @@
-#The sys library in Python is a built-in module that provides access to system-specific parameters 
-# and functions. It's one of the most commonly used standard library modules.s
+#The sys library in Python is a built-in module that provides access to system-specific parameters and functions. 
+# It's one of the most commonly used standard library modules.
+'''Errors and Exceptions Handling things (https://docs.python.org/3/tutorial/errors.html)'''
 import sys
 import logging
 from src.logger import logging
