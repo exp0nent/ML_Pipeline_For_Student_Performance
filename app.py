@@ -8,8 +8,8 @@ from src.pipeline.predict_pipeline import CustomData,PredictPipeline
 application=Flask(__name__)
    
 app=application
-
-## Route for a home page
+   
+## Route for a home page   
 
 @app.route('/')
 def index():
@@ -33,9 +33,9 @@ def predict_datapoint():
         pred_df=data.get_data_as_data_frame()
         print(pred_df)
         print("Before Prediction")
-
-        predict_pipeline=PredictPipeline()
-        print("Mid Prediction")
+  
+        predict_pipeline=PredictPipeline()    
+        print("Mid Prediction")  
         results=predict_pipeline.predict(pred_df)
         print("after Prediction")
         return render_template('home.html',results=results[0])
